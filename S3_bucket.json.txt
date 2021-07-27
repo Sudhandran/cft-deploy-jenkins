@@ -15,16 +15,8 @@
 				"BucketName": {
 					"Ref": "BucketName"
 				}
-			},
-			"Tags": [{
-					"Key": "Name",
-					"Value": "Test-Bucket"
-				},
-				{
-					"Key": "Purpose",
-					"Value": "Test"
-				}
-			]
+			}
+			
 		}
 	},
 	"Outputs": {
