@@ -4,7 +4,7 @@
 	"Parameters": {
 		"BucketName": {
 			"Type": "String",
-			"Default": "cft-bucket-plugin-2"
+			"Default": "cft-bucket-plugin-3"
 		}
 	},
 
