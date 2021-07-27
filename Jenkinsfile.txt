@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Deploy CFT into AWS') {
+            steps {
+                sh ''' aws cloudformation create-stack --stack-name cft-pipeline-from-jenkins template-body file//S3_bucket.json.txt '''
+            }
+        }
+    }
+}
