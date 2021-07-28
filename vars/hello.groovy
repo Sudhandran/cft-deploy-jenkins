@@ -1,4 +1,3 @@
-def main()
-{
-sh '''echo Hello world'''
+def main() {
+    sh '''echo Hello world'''
 }
