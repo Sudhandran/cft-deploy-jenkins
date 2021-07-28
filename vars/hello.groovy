@@ -1,4 +1,4 @@
 def main()
 {
-sh "echo Hello world"
+sh '''echo Hello world'''
 }
